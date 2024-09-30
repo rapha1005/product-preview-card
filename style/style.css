@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #F2EAE2;
+}
+
+main{
+    overflow: hidden;
+    display: flex;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+
+.info{
+    margin-left: 24px;
+}
+
+.product-type{
+
+    letter-spacing: 8px;
+    color: #6C7289;
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    width: 236px;
+    color: #1C232B;
+    font-size: 32px;
+}
+
+.description{
+
+    color: #6C7289;
+    font-size: 14px;
+    width: 237px;
+    margin-bottom: 0px;
+}
+.argeeent{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #3D8168;
+}
+
+.reduc{
+    margin-left: 18px;
+    text-decoration: line-through;
+    color: #6C7289;
+    font-size: 13px;
+
+}
+
+button{
+    background:#3D8168;
+    border: none;
+    width: 236px;
+    height: 48px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #1A4032;
+    cursor: pointer;
+}
+
